@@ -17,11 +17,19 @@ The wanted frame is 564 × 793 pixels that lives in the server side. By send
 ### Parameters
 
 `uri` the *encoded* uri to the static image 
+
 `message` the *encoded* message to be on top of the image
+
 `imageWidth` the width of the incoming image to adjust size etc
+
 `imageX` the X position you want the incoming image to be placed on the wanted frame
+
 `imageY` the Y position you want the incoming image to be placed on the wanted frame
+
 `textMargin` margin to start the text
+
 `textX` the X position you want the text to be placed on the wanted frame
+
 `textY` the X position you want the text to be placed on the wanted frame
+
 `fontSize` the size of the font, limited to  8, 10, 12, 14, 16, 32, 64 and 128
