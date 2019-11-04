@@ -2,9 +2,9 @@
   "name": "wanted-poster",
   "version": "0.0.1",
   "description": "Generates a wanted poster from a picture and a few parameters",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "babel-node server.js",
+    "start": "babel-node api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
