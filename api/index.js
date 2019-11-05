@@ -15,6 +15,7 @@ const TEXT_MARGIN = 20
 const TEXT_X = 82
 const TEXT_Y = 646
 const FONT_SIZE = 16
+const PORT = 3000
 
 const mime = {
     png: 'image/png'
@@ -71,6 +72,6 @@ App.get('/wantedframe', async function (req, res) {
     }
 })
 
-App.listen(3000, function () {
-    console.log('Listening on http://localhost:3000/')
+App.listen(PORT, function () {
+    console.log('Listening at ' + PORT)
 })
