@@ -73,5 +73,5 @@ App.get('/wantedframe', async function (req, res) {
 })
 
 App.listen(PORT, function () {
-    console.log('Listening at ' + PORT)
+    console.log('Listening ' + PORT)
 })
